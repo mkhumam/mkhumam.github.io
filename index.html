@@ -16,16 +16,21 @@
         <!-- Manual CSS -->
         <link rel="stylesheet" href="manual/css/layouts.css">
 
+        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Popper JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Fontawesome -->
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
         <style>
         .fakeimg {
             height: 200px;
-            background: #aaa;
+            background: url(user.png);
         }
         </style>
     </head>
@@ -37,7 +42,7 @@
                     <a href="index.html"><img src="images/logo-icon.svg" alt="CAKI LOGO" style="width: 90px;"></a>
                 </div>
                 <div class="col-md-8">
-                    <form class="form-inline" action="#/action_page.php" style="margin-top: 20px;">
+                    <form class="form-inline" action="#/action_page.php">
                         <input type="text" class="form-control mr-sm-2" placeholder="Search here..." name="search">
                         <button class="btn btn-default" type="submit">
                             <i class="fas fa-search"></i>
@@ -45,10 +50,10 @@
                     </form>
                 </div>
                 <div class="col-md-2">
-                    <a href="#calendar"><i class="far fa-calendar-alt" style="margin-top: 30px;margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
-                    <a href="#message"><i class="far fa-envelope" style="margin-top: 30px;margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
-                    <a href="#notification"><i class="far fa-bell" style="margin-top: 30px;margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
-                    <a href="#page_login"><i class="fas fa-sign-in-alt" style="margin-top: 30px;margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
+                    <a href="#calendar"><i class="far fa-calendar-alt" style="margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
+                    <a href="#message"><i class="far fa-envelope" style="margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
+                    <a href="#notification"><i class="far fa-bell" style="margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
+                    <a href="login.html"><i class="fas fa-sign-in-alt" style="margin-right: 24px;font-size:20px;color:#5f5f5f"></i></a>
                 </div>
             </div>
         </nav>
@@ -56,40 +61,38 @@
         <div class="container-fluid" style="margin-top:90px">
             <div class="row">
                 <div class="col-sm-2" title="sidenav">
-                <h2>About Me</h2>
-                <h5>Photo of me:</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                <h3>Some Links</h3>
-                <p>Lorem ipsum dolor sit ame.</p>
-                <ul class="nav nav-pills flex-column">
-                    <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <hr class="d-sm-none">
+                    <img src="user.png" class="rounded-circle img-thumbnail" alt="Cinque Terre" width="55" height="55">
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                    <h3>Some Links</h3>
+                    <p>Lorem ipsum dolor sit ame.</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    <hr class="d-sm-none">
                 </div>
                 <div class="col-sm-9" title="content" style="margin-left:25px">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <br>
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Dec 7, 2017</h5>
+                    <div class="fakeimg">Fake Image</div>
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <br>
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Sep 2, 2017</h5>
+                    <div class="fakeimg">Fake Image</div>
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 </div>
             </div>
         </div>
