@@ -36,6 +36,7 @@
     </head>
     <body>
 
+        <!-- ########### +++ TopNav Start +++ ########### -->
         <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
             <div class="container-fluid">
                 <div class="col-md-2">
@@ -57,30 +58,128 @@
                 </div>
             </div>
         </nav>
+        <!-- ########### --- TopNav End --- ########### -->
+
 
         <div class="container-fluid" style="margin-top:90px">
             <div class="row">
+                
+        <!-- ########### +++ SideNav Start +++ ########### -->
                 <div class="col-sm-2" title="sidenav">
                     <img src="user.png" class="rounded-circle img-thumbnail" alt="Cinque Terre" width="55" height="55">
-                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                    <h3>Some Links</h3>
-                    <p>Lorem ipsum dolor sit ame.</p>
-                    <ul class="nav nav-pills flex-column">
+                    <div class="welcome">Welcome,</div>
+                    <div class="user-dropdown">
+                        <button type="button" class="btn btn-clear dropdown-toggle font-weight-bold" data-toggle="dropdown">
+                            Sohui Park
+                        </button>
+                        <div class="dropdown-menu" style="background-color: rgb(36, 35, 35)">
+                          <a class="dropdown-item" style="color: rgb(161, 161, 161)" href="#"><i class="far fa-envelope-open"></i> Messages</a>
+                          <a class="dropdown-item" style="color: rgb(161, 161, 161)" href="#"><i class="fas fa-cog"></i> Settings</a>
+                          <div class="dropdown-divider" style="margin-left: 15px; margin-right: 15px;"></div>
+                          <a class="dropdown-item" style="color: rgb(161, 161, 161)" href="#"><i class="fas fa-power-off"></i> Logout</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <ul class="nav nav-tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                          <a class="nav-link active text-info font-weight-bolder" href="#">Menu</a>
                         </li>
                     </ul>
+                    <br>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span style="margin-right: 15px"><i class="fas fa-home"></i></span> Home
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Dashboard</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Calendar</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Inbox</small></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span style="margin-right: 15px"> <i class="fas fa-qrcode"></i> </span> Transaction
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Quotation List</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Tour Packages List</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Reimbursement</small></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span style="margin-right: 15px"> <i class="far fa-folder"></i> </span> Reports
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Packages Report</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Invoice Report</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Revenue Report</small></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                <span style="margin-right: 15px"> <i class="fas fa-globe"></i> </span> Master Data
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Packages</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Destination</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Hotels</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Restaurant</small></a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none" href="#/home"><small><span style="margin-right: 15px"> -- </span>  Vehicle</small></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                     <hr class="d-sm-none">
                 </div>
+                <!-- ########### +++ SideNav End +++ ########### -->
+
+                <!-- ########### +++ Content Start +++ ########### -->
                 <div class="col-sm-9" title="content" style="margin-left:25px">
                     <h2>TITLE HEADING</h2>
                     <h5>Title description, Dec 7, 2017</h5>
@@ -94,12 +193,10 @@
                     <p>Some text..</p>
                     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 </div>
-            </div>
-        </div>
+                <!-- ########### +++ Content End +++ ########### -->
 
-        <div class="jumbotron text-center" style="margin-bottom:0">
-            <p>Footer</p>
-        </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container-fluid -->
 
     </body>
 </html>
