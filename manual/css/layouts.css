@@ -20,3 +20,21 @@ color: #000000;
     left: 65px;
     top: 20px;
 }
+
+/* just drag cursor type */
+.drag{
+  cursor: move;
+}
+
+/* just hovering items */
+.justhover {
+  background-color: #fff;
+  border: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.justhover:hover {
+  background-color: #ffffff;
+  color: rgb(0, 195, 255);
+}
