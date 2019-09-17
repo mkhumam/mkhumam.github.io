@@ -21,11 +21,6 @@ color: #000000;
     top: 20px;
 }
 
-/* just drag cursor type */
-.drag{
-  cursor: move;
-}
-
 /* just hovering items */
 .justhover {
   background-color: #fff;
